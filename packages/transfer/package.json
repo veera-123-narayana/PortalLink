@@ -1,0 +1,12 @@
+{
+  "name": "@portallink/transfer",
+  "version": "1.0.0",
+  "description": "Streaming Transfer Engine, chunking, backpressure, and integrity verification for PortalLink",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@portallink/core": "*",
+    "@portallink/protocol": "*",
+    "@portallink/crypto": "*"
+  }
+}

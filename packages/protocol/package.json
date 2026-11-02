@@ -1,0 +1,11 @@
+{
+  "name": "@portallink/protocol",
+  "version": "1.0.0",
+  "description": "Wire protocol, binary framing, and signaling message envelopes for PortalLink",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@portallink/core": "*",
+    "@portallink/crypto": "*"
+  }
+}

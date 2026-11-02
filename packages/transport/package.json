@@ -1,0 +1,11 @@
+{
+  "name": "@portallink/transport",
+  "version": "1.0.0",
+  "description": "Intelligent Transport Engine (ITE) and Transport Abstraction for PortalLink",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@portallink/core": "*",
+    "@portallink/protocol": "*"
+  }
+}

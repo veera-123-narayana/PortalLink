@@ -1,0 +1,11 @@
+{
+  "name": "@portallink/pairing",
+  "version": "1.0.0",
+  "description": "Pairing protocols, gesture matching, and QR invitation lifecycle for PortalLink",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@portallink/core": "*",
+    "@portallink/crypto": "*"
+  }
+}

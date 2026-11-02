@@ -1,0 +1,7 @@
+{
+  "name": "@portallink/ui",
+  "version": "1.0.0",
+  "description": "Spatial Design System tokens, audio synthesized cues, and theme definitions for PortalLink",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts"
+}

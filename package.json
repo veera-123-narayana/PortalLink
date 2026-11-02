@@ -1,0 +1,23 @@
+{
+  "name": "portallink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Drop. Connect. Share. One Portal. Every Device. Instant Sharing.",
+  "author": "PortalLink Architecture Team",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "signaling": "node services/signaling/server.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

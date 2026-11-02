@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@portallink/core": ["packages/core/src"],
+      "@portallink/protocol": ["packages/protocol/src"],
+      "@portallink/crypto": ["packages/crypto/src"],
+      "@portallink/discovery": ["packages/discovery/src"],
+      "@portallink/pairing": ["packages/pairing/src"],
+      "@portallink/transport": ["packages/transport/src"],
+      "@portallink/transfer": ["packages/transfer/src"],
+      "@portallink/ui": ["packages/ui/src"]
+    }
+  },
+  "exclude": ["node_modules", "dist", ".next"]
+}

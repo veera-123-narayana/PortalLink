@@ -1,0 +1,9 @@
+{
+  "name": "@portallink/signaling",
+  "version": "1.0.0",
+  "description": "Zero-knowledge ephemeral WebRTC signaling and presence gateway",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
